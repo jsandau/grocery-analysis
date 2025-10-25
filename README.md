@@ -51,7 +51,7 @@ While analyzing fraternity grocery orders, I noticed inefficiencies in planning 
 ---
 
 ## 📊 Tableau Dashboard    
-[View Here](https://public.tableau.com/views/GroceryData_17614263618620/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[View Here](https://public.tableau.com/views/GroceryData_17614263618620/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)   
 Visualizes weekly spending, item demand forecasts, and category trends.   
 Highlights top items, and spending patterns.     
 
