@@ -10,75 +10,75 @@ While analyzing fraternity grocery orders, I noticed inefficiencies in planning 
 
 ## 🚀 Features
 
-PDF Parsing & Data Cleaning: Extracts structured data from weekly invoices using Python (pdfplumber + pandas).   
+- PDF Parsing & Data Cleaning: Extracts structured data from weekly invoices using Python (pdfplumber + pandas).   
  
-SQL Database Integration: Stores item orders, categories, quantities, and weekly spend in PostgreSQL.   
+- SQL Database Integration: Stores item orders, categories, quantities, and weekly spend in PostgreSQL.   
 
-Demand Forecasting: Estimates upcoming weekly demand per item and flags potential anomalies.   
+- Demand Forecasting: Estimates upcoming weekly demand per item.  
 
-Spending & Category Analysis: Tracks total and per-member weekly costs, top items, and category performance.   
+- Spending & Category Analysis: Tracks total weekly cost, top items, and category performance.   
   
-Tableau Visualization: Interactive dashboards with line charts, scatter plots, pie charts, and heatmaps for insights.   
+- Tableau Visualization: Interactive dashboards with line charts, scatter plots, pie charts, and heatmaps for insights.   
 
-Export for Analytics: CSV export for Tableau or other analytics tools. 
+- Export for Analytics: CSV export for Tableau or other analytics tools. 
 
 ---
 
 ## 🧰 Tech Stack
 
-Languages: Python, SQL   
+- **Languages:** Python, SQL   
 
-Database: PostgreSQL    
+- **Database:** PostgreSQL    
 
-Libraries: pandas, pdfplumber, psycopg2    
+- **Libraries:** pandas, pdfplumber, psycopg2    
   
-Visualization: Tableau   
+- **Visualization:** Tableau   
 
 ---
 
 ## 📈 Workflow
 
-Extract weekly order data from PDFs.   
+1. Extract weekly order data from PDFs.   
 
-Clean, categorize, and store data in PostgreSQL (costco_orders).   
+2. Clean, categorize, and store data in PostgreSQL (costco_orders).   
 
-Aggregate and calculate metrics: weekly spend, top items, category totals, inventory fill rates.   
+3. Aggregate and calculate metrics: weekly spend, top items, category totals, inventory fill rates.   
 
-Export data to CSV for Tableau dashboards.    
-
-Visualize insights with filters, forecasts, and trend lines.
+4. Export data to CSV for Tableau dashboards.      
+ 
+5. Visualize insights with filters, forecasts, and trend lines.   
 
 ---
 
-## 📊 Tableau Dashboard   
+## 📊 Tableau Dashboard    
+[View Here](https://public.tableau.com/views/GroceryData_17614263618620/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-Weekly Spending: Line chart showing total and per-member spend.
+**Weekly Spending:** Line chart showing total and per-member spend.   
 
-Item Demand: Forecast weekly quantities per item.
+**Item Demand:** Forecast weekly quantities per item.   
 
-Category Trends: Compare spending across categories over time.
+**Category Trends:** Compare spending across categories over time.   
 
-Top Items Analysis: Highlight top 10 items by total spend.
+**Top Items Analysis:** Highlight top 10 items by total spend.   
 
-Price vs Spending Scatter Plot: Shows correlation between unit price and total spend per item.
+**Price vs Spending Scatter Plot:** Shows correlation between unit price and total spend per item.   
 
-Cancelled Orders & Fill Rate: Identify inefficiencies and anomalies.
+**Cancelled Orders & Fill Rate:** Identify inefficiencies and anomalies.   
 
 ---
 
 ## 💡 Future Improvements
 
-Automate weekly PDF extraction and Tableau data refresh.
+Automate weekly PDF extraction and Tableau data refresh.   
 
-Implement advanced machine learning models for demand forecasting.
+Implement advanced machine learning models for demand forecasting.   
 
-Add an interactive web front-end for easier exploration.
+Add an interactive web front-end for easier exploration.   
 
 ---
 
 ## 👨‍💻 Author
-Jacob Sandau
-University of Minnesota
-📬 LinkedIn: [https://www.linkedin.com/in/jacob-sandau-204743233/]
-
+Jacob Sandau   
+University of Minnesota   
+📬 LinkedIn: [https://www.linkedin.com/in/jacob-sandau-204743233/]   
 📧 Email: jsandau@sandau.com
