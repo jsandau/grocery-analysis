@@ -70,4 +70,4 @@ Add an interactive web front-end for easier exploration.
 ## 👨‍💻 Author
 Jacob Sandau   
 University of Minnesota   
-(LinkedIn)[https://www.linkedin.com/in/jacob-sandau-204743233/] | jsandau@sandau.com
+[LinkedIn](https://www.linkedin.com/in/jacob-sandau-204743233/) | jsandau@sandau.com
