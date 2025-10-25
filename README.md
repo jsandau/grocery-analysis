@@ -10,17 +10,17 @@ While analyzing fraternity grocery orders, I noticed inefficiencies in planning 
 
 ## 🚀 Features
 
-- PDF Parsing & Data Cleaning: Extracts structured data from weekly invoices using Python (pdfplumber + pandas).   
+- **PDF Parsing & Data Cleaning:** Extracts structured data from weekly invoices using Python (pdfplumber + pandas).   
  
-- SQL Database Integration: Stores item orders, categories, quantities, and weekly spend in PostgreSQL.   
+- **SQL Database Integration:** Stores item orders, categories, quantities, and weekly spend in PostgreSQL.   
 
-- Demand Forecasting: Estimates upcoming weekly demand per item.  
+- **Demand Forecasting:** Estimates upcoming weekly demand per item.  
 
-- Spending & Category Analysis: Tracks total weekly cost, top items, and category performance.   
+- **Spending & Category Analysis:** Tracks total weekly cost, top items, and category performance.   
   
-- Tableau Visualization: Interactive dashboards with line charts, scatter plots, pie charts, and heatmaps for insights.   
+- **Tableau Visualization:** Interactive dashboards with line charts, scatter plots, pie charts, and heatmaps for insights.   
 
-- Export for Analytics: CSV export for Tableau or other analytics tools. 
+- **Export for Analytics:** CSV export for Tableau or other analytics tools. 
 
 ---
 
@@ -52,18 +52,8 @@ While analyzing fraternity grocery orders, I noticed inefficiencies in planning 
 
 ## 📊 Tableau Dashboard    
 [View Here](https://public.tableau.com/views/GroceryData_17614263618620/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-**Weekly Spending:** Line chart showing total and per-member spend.   
-
-**Item Demand:** Forecast weekly quantities per item.   
-
-**Category Trends:** Compare spending across categories over time.   
-
-**Top Items Analysis:** Highlight top 10 items by total spend.   
-
-**Price vs Spending Scatter Plot:** Shows correlation between unit price and total spend per item.   
-
-**Cancelled Orders & Fill Rate:** Identify inefficiencies and anomalies.   
+Visualizes weekly spending, item demand forecasts, and category trends.   
+Highlights top items, and spending patterns.     
 
 ---
 
